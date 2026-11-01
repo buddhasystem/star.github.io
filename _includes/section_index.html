@@ -1,0 +1,10 @@
+{%- comment -%} Lists the children of a navigation section. Usage: include section_index.html section="/physics/" {%- endcomment -%}
+{%- for item in site.data.navigation %}
+  {%- if item.url == include.section and item.children %}
+<ul>
+    {%- for c in item.children %}
+  <li><a href="{% if c.external %}{{ c.url }}{% else %}{{ c.url | relative_url }}{% endif %}"{% if c.external %} target="_blank" rel="noopener"{% endif %}>{{ c.title }}</a></li>
+    {%- endfor %}
+</ul>
+  {%- endif %}
+{%- endfor %}

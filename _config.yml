@@ -1,0 +1,31 @@
+title: The STAR Experiment
+description: The STAR experiment at RHIC, Brookhaven National Laboratory
+
+# TODO: set url/baseurl to the final public address before launch.
+# Every link in the templates goes through `relative_url`, so only these two
+# lines change. For a project page (user.github.io/repo) use baseurl: "/repo".
+url: "https://star.github.io"
+baseurl: ""
+
+timezone: America/New_York
+
+# News items are posts: _posts/YYYY-MM-DD-title.md
+permalink: /news/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-sitemap        # generates /sitemap.xml for search engines
+  - jekyll-redirect-from  # keeps old www.star.bnl.gov URLs working (redirect_from:)
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/

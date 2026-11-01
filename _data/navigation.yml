@@ -1,0 +1,99 @@
+# Left-hand navigation. One entry per page; the sidebar and the Sitemap page
+# are both generated from this file.
+#   url:      site-relative path (or full URL when `external: true`)
+#   icon:     a Feather icon name (https://feathericons.com)
+#   children: shown in the sidebar only while the section is open
+- title: Home
+  url: /
+  icon: home
+
+- title: STAR Focus
+  url: /focus/
+  icon: star
+
+- title: Physics
+  url: /physics/
+  icon: activity
+  children:
+    - { title: Introduction,    url: /physics/ }
+    - { title: STAR results,    url: /physics/results/ }
+    - { title: Working groups,  url: /physics/working-groups/ }
+    - { title: Physics links,   url: /physics/links/ }
+
+- title: Experiment
+  url: /experiment/
+  icon: cpu
+  children:
+    - { title: Subsystems,      url: /experiment/subsystems/ }
+    - { title: Operations,      url: /experiment/operations/ }
+    - { title: On-site info,    url: /experiment/onsite/ }
+    - { title: Pictures,        url: /experiment/pictures/ }
+    - { title: Online,          url: "http://online.star.bnl.gov/", external: true }
+    - { title: Shift signup,    url: "http://online.star.bnl.gov/ShiftSignup/", external: true }
+    - { title: Guest registration, url: "https://fsd84.bis.bnl.gov/guest/guest.asp", external: true }
+
+- title: Collaboration
+  url: /collaboration/
+  icon: users
+  children:
+    - { title: Spokespersons' welcome, url: /collaboration/welcome/ }
+    - { title: Institutions,    url: /collaboration/institutions/ }
+    - { title: Organization,    url: /collaboration/organization/ }
+    - { title: Author tools,    url: /collaboration/authors/ }
+    - { title: Author list,     url: /collaboration/authors/author-list/ }
+    - { title: Two author list policy, url: /collaboration/authors/two-author-policy/ }
+    # Drupal pages: expected to show "access denied" until migrated.
+    - { title: Funding agencies, url: "https://drupal.star.bnl.gov/STAR/public/collaboration/star-funding-agencies", external: true }
+    - { title: Juniors,         url: "https://drupal.star.bnl.gov/STAR/juniors", external: true }
+    - { title: Presentations,   url: "https://drupal.star.bnl.gov/STAR/presentations", external: true }
+    - { title: Acknowledgments, url: "https://drupal.star.bnl.gov/STAR/public/collaboration/acknowledgements", external: true }
+
+# Replaces the legacy phone book search forms.
+- title: Phonebook
+  url: "https://phonebook.sdcc.bnl.gov/star/client/"
+  icon: phone
+  external: true
+
+- title: Publications
+  url: /publications/
+  icon: book-open
+  children:
+    - { title: Publications,    url: "https://drupal.star.bnl.gov/STAR/publications/intro", external: true }
+    - { title: Presentations,   url: "https://drupal.star.bnl.gov/STAR/presentations/", external: true }
+    - { title: Technical,       url: "https://drupal.star.bnl.gov/STAR/publications/technical_publications", external: true }
+    - { title: Graduate theses, url: "https://drupal.star.bnl.gov/STAR/theses", external: true }
+    - { title: STAR Notes,      url: "https://drupal.star.bnl.gov/STAR/starnotes", external: true }
+    - { title: Author tools,    url: /collaboration/authors/ }
+
+- title: News & Events
+  url: /news/
+  icon: calendar
+  children:
+    - { title: Recent news,     url: /news/ }
+    - { title: News archive 2004-2009, url: /news/archive/ }
+    - { title: Meetings archive, url: /meetings/ }
+    - { title: STAR newsletter, url: "https://drupal.star.bnl.gov/STAR/star-newsletter", external: true }
+    - { title: Upcoming meetings, url: "https://drupal.star.bnl.gov/STAR/pwg/common/upcoming-conferences-deadlines", external: true }
+    - { title: Events,          url: "https://drupal.star.bnl.gov/STAR/event", external: true }
+
+- title: Mailing lists
+  url: /lists/
+  icon: mail
+  children:
+    - { title: STAR lists,      url: /lists/ }
+    - { title: Hypernews,       url: "http://www.star.bnl.gov/HyperNews-star/index/", external: true }
+    - { title: BNL lists,       url: "http://lists.bnl.gov/mailman/listinfo/", external: true }
+
+- title: Computing
+  url: "https://drupal.star.bnl.gov/STAR/comp/"
+  icon: server
+  external: true
+
+- title: The future
+  url: "https://drupal.star.bnl.gov/STAR/future"
+  icon: compass
+  external: true
+
+- title: Sitemap
+  url: /sitemap/
+  icon: list

@@ -1,0 +1,13 @@
+{%- comment -%}
+  Marks a page whose content has not been migrated yet.
+  Remove the include when the real content is in place. Find all stubs with:
+      grep -rl "include stub.html" --include=*.md .
+  Parameters: legacy (path on www.star.bnl.gov), note (free text).
+{%- endcomment -%}
+<div class="alert alert-warning stub-notice" role="alert">
+  <strong>Stub page.</strong> The content has not been migrated yet.
+  {%- if include.legacy %} Legacy page:
+  <a href="https://www.star.bnl.gov{{ include.legacy }}" target="_blank" rel="noopener">{{ include.legacy }}</a>.
+  {%- endif %}
+  {%- if include.note %}<br/>{{ include.note }}{% endif %}
+</div>

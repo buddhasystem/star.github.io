@@ -1,0 +1,8 @@
+# Meetings shown on the home page, split into upcoming/past at build time by
+# the `end` date. Add new entries at the top.
+# TODO: migrate the full list (and links) from the legacy home page.
+# NOTE: the url on the AUM entry was matched to the entry by link order on the
+# legacy page; verify it when migrating the rest.
+- { title: "STAR Collaboration Meeting",    start: 2026-10-05, end: 2026-10-09, dates: "October 5 - 9, 2026" }
+- { title: "STAR QM-Analysis Meeting",      start: 2026-08-31, end: 2026-09-04, dates: "August 31 - September 4, 2026" }
+- { title: "2026 RHIC/AGS Annual Users' Meeting", start: 2026-05-11, end: 2026-05-13, dates: "May 11 - 13, 2026", place: "BNL", url: "https://www.bnl.gov/rhicagsaum/index.php" }

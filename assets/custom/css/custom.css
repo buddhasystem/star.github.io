@@ -1,0 +1,33 @@
+/* STAR site styles. Rebrand by changing the variables below. */
+:root {
+  --star-accent: #9b1b30;      /* header, headings, icons */
+  --star-accent-dark: #6f1222;
+}
+
+body { font-size: 1rem; }
+
+.site-header { background-color: var(--star-accent); }
+.site-header .navbar-brand { background-color: var(--star-accent-dark); color: #fff; }
+.brand-mark { color: #ffd54f; }
+.page-title { font-size: 1.35rem; color: #fff; margin: 0; }
+
+/* sidebar */
+.sidebar .nav-link { color: #333; padding-top: .2rem; padding-bottom: .2rem; }
+.sidebar .nav-link .feather { color: var(--star-accent); }
+.sidebar .nav-link.active { color: var(--star-accent); font-weight: 700; }
+.sidebar-children .nav-link { font-weight: 400; font-size: .9rem; }
+.related-sites .nav-link { font-size: .85rem; }
+.build-stamp { font-size: x-small; color: #777; }
+
+/* content */
+.content { max-width: 60rem; }
+.content h2, .content h3, .content h4 { color: var(--star-accent); margin-top: 1.5rem; }
+.content a { color: var(--star-accent); }
+.content table { border-collapse: collapse; margin: 1rem 0; }
+.content th, .content td { border: 1px solid #ccc; padding: .4rem .7rem; vertical-align: top; }
+.content th { background: var(--star-accent); color: #fff; }
+.content tr:nth-child(even) td { background: #f7f7f7; }
+.content blockquote { padding: .5em .75em; background: #eee; border-left: .4em solid #aaa; border-radius: 6px; }
+
+.stub-notice { font-size: .9rem; }
+.news-date { color: #666; font-size: .85rem; }

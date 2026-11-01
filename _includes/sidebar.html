@@ -1,0 +1,54 @@
+{%- comment -%}
+  Sidebar generated from _data/navigation.yml.
+  A section is "open" (its children are listed) while the current page lives under its url.
+{%- endcomment -%}
+<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" aria-label="Main navigation">
+  <div class="sidebar-sticky">
+    <ul class="nav flex-column" id="mynavlist">
+    {%- for item in site.data.navigation %}
+      {%- assign open = false %}
+      {%- unless item.external %}
+        {%- if item.url == '/' %}
+          {%- if page.url == '/' %}{% assign open = true %}{% endif %}
+        {%- elsif page.url contains item.url %}
+          {%- assign open = true %}
+        {%- endif %}
+      {%- endunless %}
+      <li class="nav-item">
+        {%- if item.external %}
+        <a class="nav-link" href="{{ item.url }}" target="_blank" rel="noopener">
+          <span data-feather="{{ item.icon }}"></span>{{ item.title }}&nbsp;<span data-feather="external-link"></span>
+        </a>
+        {%- else %}
+        <a class="nav-link{% if open %} active{% endif %}" href="{{ item.url | relative_url }}">
+          <span data-feather="{{ item.icon }}"></span>{{ item.title }}
+        </a>
+        {%- endif %}
+        {%- if open and item.children %}
+        <ul class="nav flex-column ms-4 sidebar-children">
+          {%- for child in item.children %}
+          <li class="nav-item">
+            {%- if child.external %}
+            <a class="nav-link" href="{{ child.url }}" target="_blank" rel="noopener">{{ child.title }}&nbsp;<span data-feather="external-link"></span></a>
+            {%- else %}
+            <a class="nav-link{% if page.url == child.url or child.url != item.url and page.url contains child.url %} active{% endif %}" href="{{ child.url | relative_url }}">{{ child.title }}</a>
+            {%- endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </li>
+    {%- endfor %}
+    </ul>
+
+    <hr/>
+    <ul class="nav flex-column related-sites">
+      {%- for s in site.data.related_sites %}
+      <li class="nav-item"><a class="nav-link" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a></li>
+      {%- endfor %}
+    </ul>
+
+    {%- comment -%} TODO: add a webmaster contact address here (the legacy webmaster page is a Drupal link). {%- endcomment -%}
+    <p class="build-stamp px-3 pt-3">Site built<br/>{{ site.time | date: "%Y-%m-%d %H:%M" }}</p>
+  </div>
+</nav>

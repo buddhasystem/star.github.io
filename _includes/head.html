@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+
+  {%- comment -%} TODO: add favicon files under assets/images/ and link them here. {%- endcomment -%}
+
+  <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/dashboard/dashboard.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/custom/css/custom.css' | relative_url }}">
+
+  {%- comment -%}
+    Physics pages with formulas: put `math: true` in the page front matter.
+    MathJax is loaded from a CDN; vendor it under assets/ if the site must work offline.
+  {%- endcomment -%}
+  {% if page.math %}
+  <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']] } };</script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+  {% endif %}
+</head>

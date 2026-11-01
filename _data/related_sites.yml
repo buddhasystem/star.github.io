@@ -1,0 +1,7 @@
+# Small link block at the bottom of the sidebar (legacy: BNL, RHIC, Brahms, ...)
+- { title: BNL,    url: "https://www.bnl.gov/" }
+- { title: RHIC,   url: "https://www.bnl.gov/rhic/" }
+- { title: Brahms, url: "https://www.sdcc.bnl.gov/brahms/" }
+- { title: Phenix, url: "http://www.phenix.bnl.gov/" }
+- { title: Phobos, url: "https://www.sdcc.bnl.gov/phobos/" }
+- { title: DOE,    url: "https://www.energy.gov/" }

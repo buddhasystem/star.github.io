@@ -49,3 +49,8 @@ body { font-size: 1rem; }
 
 /* external-link icon inside page content (same feather icon as the sidebar) */
 .content .feather { width: 14px; height: 14px; vertical-align: -2px; color: var(--star-accent); }
+
+/* mailing lists page: one column, plain lists with lock icons */
+.mail-lists ul { list-style: none; padding-left: 0; }
+.mail-lists li { margin: .15rem 0; }
+.mail-lists .ml-icon, .mail-lists .feather { width: 14px; height: 14px; vertical-align: -2px; color: var(--star-accent); }

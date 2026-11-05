@@ -54,3 +54,7 @@ body { font-size: 1rem; }
 .mail-lists ul { list-style: none; padding-left: 0; }
 .mail-lists li { margin: .15rem 0; }
 .mail-lists .ml-icon, .mail-lists .feather { width: 14px; height: 14px; vertical-align: -2px; color: var(--star-accent); }
+
+/* experiment page: detector drawing */
+.detector-layout { text-align: center; margin: 1rem 0 1.5rem; }
+.detector-layout img { max-width: 100%; height: auto; }

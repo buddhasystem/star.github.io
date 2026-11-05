@@ -46,3 +46,6 @@ body { font-size: 1rem; }
 .focus-figure-images img { max-width: 100%; width: 450px; height: auto; }
 .focus-figure figcaption { font-size: .9rem; margin-top: .5rem; }
 .focus-posted { color: #00008b; font-weight: 700; font-size: .9rem; text-align: left !important; }
+
+/* external-link icon inside page content (same feather icon as the sidebar) */
+.content .feather { width: 14px; height: 14px; vertical-align: -2px; color: var(--star-accent); }

@@ -1,4 +1,4 @@
-# Meetings shown on the home page, split into upcoming/past at build time by
+# Meetings shown on the Events page (/events/), split into upcoming/past at build time by
 # the `end` date. Add new entries at the top.
 # TODO: migrate the full list (and links) from the legacy home page.
 # NOTE: the url on the AUM entry was matched to the entry by link order on the

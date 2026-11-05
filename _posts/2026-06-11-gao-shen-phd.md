@@ -1,0 +1,4 @@
+---
+title: "Dr. Taoya Gao and Dr. Dandan Shen defend Ph.D. theses"
+---
+Please join us in congratulating Dr. Taoya Gao and Dr. Dandan Shen from Shandong University, who successfully defended their Ph.D. thesis on May 29: Taoya Gao on "Measurement of Transverse Polarization of Lambda Hyperons inside Jets in Proton-Proton Collisions at 200 GeV at RHIC-STAR," under supervision of Prof. Jinlong Zhang and Prof. Qinghua Xu. Dandan Shen on "Experimental Investigation of J/Psi Energy Correlator and Polarization at RHIC-STAR," under supervision of Prof. Qian Yang and Prof. Li Yi. Many thanks to Jinlong, Qinghua, Qian, and Li for your continued support in mentoring the next generation of physicists. Taoya will continue to work as a post-doctoral fellow, and Dandan will continue to work in industry. Congratulations to Dr. Taoya Gao and congratulations to Dr. Dandan Shen!

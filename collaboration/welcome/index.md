@@ -25,7 +25,7 @@ redirect_from:
 
 <p>The following years will not only provide us with the unique opportunity to employ all our detectors and upgrades to collect high-statistics data sets. In the next years, we will also lay the fundaments for a new, post-RHIC era, allowing us to keep our scientific output strong and fulfill what is needed to preserve equitable access to all data and its resources.</p>
 
-<p>As spokespersons, we are committed to creating an open and inclusive scientific environment where all are encouraged to express their opinions collegially and respectfully. We expect no less from our colleagues. We encourage you to take a look at our <a href="https://star.rice.edu/CodeOfConduct.html" target="_blank" rel="noopener">code of conduct</a>.</p>
+<p>As spokespersons, we are committed to creating an open and inclusive scientific environment where all are encouraged to express their opinions collegially and respectfully. We expect no less from our colleagues. We encourage you to take a look at our <a href="{{ '/collaboration/code_of_conduct/' | relative_url }}">code of conduct</a>.</p>
 
 <p>Looking back, there is an impressive legacy of unique data sets and seminal papers. As a scientific collaboration, we also must look forward to an exciting future not bound by the last years of RHIC operations but only by our imagination of how we can push our datasets to their very limits. As co-Spokespeople, we look forward to guiding our collaboration through its last years of beam operations and preparing for its post-operations era. We encourage you to reach out to us with your questions or comments about STAR.</p>
 

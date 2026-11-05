@@ -1,10 +1,14 @@
 title: The STAR Experiment
 description: The STAR experiment at RHIC, Brookhaven National Laboratory
 
-# TODO: set url/baseurl to the final public address before launch.
-# Every link in the templates goes through `relative_url`, so only these two
-# lines change. For a project page (user.github.io/repo) use baseurl: "/repo".
-url: "https://star.github.io"
+# TODO: set url to the final public address before launch.
+# Keep baseurl empty: the site then previews at http://127.0.0.1:4000/ locally.
+# When served as a project page (user.github.io/repo), the GitHub Actions
+# workflow in .github/workflows/jekyll.yml passes the base path to the build
+# (`jekyll build --baseurl ...`), so nothing needs to change here.
+# Every link in the templates goes through `relative_url`.
+
+url: "https://buddhasystem.github.io"
 baseurl: ""
 
 timezone: America/New_York

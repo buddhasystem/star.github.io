@@ -29,5 +29,20 @@ body { font-size: 1rem; }
 .content tr:nth-child(even) td { background: #f7f7f7; }
 .content blockquote { padding: .5em .75em; background: #eee; border-left: .4em solid #aaa; border-radius: 6px; }
 
-.stub-notice { font-size: .9rem; }
 .news-date { color: #666; font-size: .85rem; }
+
+/* spokespersons' welcome page */
+.welcome p { text-align: justify; }
+.welcome-photos { display: flex; justify-content: center; align-items: center; gap: 2.5rem; margin: 1rem 0 1.5rem; flex-wrap: wrap; }
+.welcome-photos img { max-width: 100%; height: auto; }
+.welcome .star-heading::before { content: "\2606\00a0"; }   /* hollow star, as on the old site */
+.welcome p.former { text-align: left; }
+.welcome-return { text-align: center !important; margin-top: 1.5rem; }
+
+/* STAR Focus feature (home page) */
+.focus-feature p { text-align: justify; }
+.focus-figure { margin: 1.25rem 0; }
+.focus-figure-images { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start; }
+.focus-figure-images img { max-width: 100%; width: 450px; height: auto; }
+.focus-figure figcaption { font-size: .9rem; margin-top: .5rem; }
+.focus-posted { color: #00008b; font-weight: 700; font-size: .9rem; text-align: left !important; }

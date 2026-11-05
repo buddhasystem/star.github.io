@@ -7,10 +7,6 @@
   url: /
   icon: home
 
-- title: STAR Focus
-  url: /focus/
-  icon: star
-
 - title: Physics
   url: /physics/
   icon: activity

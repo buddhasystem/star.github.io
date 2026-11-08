@@ -20,12 +20,10 @@
   icon: cpu
   children:
     - { title: Subsystems,      url: /experiment/subsystems/ }
-    - { title: Operations,      url: /experiment/operations/ }
-    - { title: On-site info,    url: /experiment/onsite/ }
-    - { title: Pictures,        url: /experiment/pictures/ }
-    - { title: Online,          url: "http://online.star.bnl.gov/", external: true }
+    - { title: Operations,      url: "https://www.star.bnl.gov/public/ops/operations.html", external: true }
+    - { title: On-site info,    url: "http://www.bnl.gov/userscenter/", external: true }
+    - { title: Pictures,        url: "https://www.star.bnl.gov/public/img/images.html", external: true }
     - { title: Shift signup,    url: "http://online.star.bnl.gov/ShiftSignup/", external: true }
-    - { title: Guest registration, url: "https://fsd84.bis.bnl.gov/guest/guest.asp", external: true }
 
 - title: Collaboration
   url: /collaboration/

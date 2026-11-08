@@ -3,7 +3,7 @@
   {%- if item.url == include.section and item.children %}
 <ul>
     {%- for c in item.children %}
-  <li><a href="{% if c.external %}{{ c.url }}{% else %}{{ c.url | relative_url }}{% endif %}"{% if c.external %} target="_blank" rel="noopener"{% endif %}>{{ c.title }}</a></li>
+  <li><a href="{% if c.external %}{{ c.url }}{% else %}{{ c.url | relative_url }}{% endif %}"{% if c.external %} target="_blank" rel="noopener"{% endif %}>{{ c.title }}</a>{% if c.external %}&nbsp;<span data-feather="external-link"></span>{% endif %}</li>
     {%- endfor %}
 </ul>
   {%- endif %}

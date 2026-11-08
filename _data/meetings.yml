@@ -1,0 +1,105 @@
+# STAR meetings archive, migrated from
+# https://www.star.bnl.gov/central/meetings/archives.php
+# Entries: t = title, u = link; u2/l2 = optional second link and its label.
+- year: 2025
+  items:
+    - { t: "STAR Collaboration Meeting, Aug. 11 - 15, 2025, KSU", u: "https://indico.bnl.gov/event/23206/" }
+    - { t: "RHIC & AGS Users' Meeting, May 20-23, 2025", u: "https://indico.bnl.gov/event/27198/" }
+    - { t: "STAR Collaboration Meeting, Mar. 2 - 7, 2025, BNL", u: "https://indico.bnl.gov/event/26119/" }
+- year: 2024
+  items:
+    - { t: "STAR Collaboration Meeting, Oct. 21 - 24, 2024, Warsaw", u: "https://indico.bnl.gov/event/23206/" }
+    - { t: "RHIC & AGS Users' Meeting, Jun. 11 - 14, 2024", u: "https://indico.bnl.gov/event/22687/" }
+    - { t: "STAR Collaboration Meeting, Mar. 18 - 22, 2024, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Collaboration-Meeting-March-2024" }
+- year: 2023
+  items:
+    - { t: "ALICE-STAR India Collaboration Meeting June 24 - 27, 2024, Institute of Physics Bhubaneswar", u: "https://indico.cern.ch/event/1411351/" }
+    - { t: "STAR Collaboration Meeting Fall 2023, Oct. 16 - 20, 2023, AUC", u: "https://indico.bnl.gov/event/20198/" }
+    - { t: "STAR Pre-QM23 Meeting, Aug. 30 - Sep. 1, 2023, Rice University", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Pre-QM2023-Meeting" }
+    - { t: "RHIC & AGS Users' Meeting 2023, Aug. 1-4, 2023", u: "https://www.bnl.gov/rhicagsaum/" }
+    - { t: "Online STAR analysis meeting and BES-II workshop for QM23, June 26-29, 2023", u: "https://drupal.star.bnl.gov/STAR/blog/sesumi/BES-II-workshop-agenda" }
+    - { t: "STAR Collaboration Meeting, Feb. 27 - Mar. 3, 2023, LBNL", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Collaboration-Meeting-Spring-2023" }
+- year: 2022
+  items:
+    - { t: "STAR Analysis Meeting, December 12-14, 2022 (Online)", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Analysis-Meeting-December-2022" }
+    - { t: "STAR Collaboration Meeting, Sep. 12-16, 2022, Hosted by BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Collaboration-Meeting-September-2022" }
+    - { t: "STAR Planning Meeting for LRP", u: "https://drupal.star.bnl.gov/STAR/event/2022/08/22/LRP-planning-STARRHIC" }
+    - { t: "STAR Analysis Meeting, June 22-24, 2022 (Online)", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Analysis-Meeting-June-2022" }
+    - { t: "STAR Pre-QM Meeting, Mar 22-Apr 1, 2022", u: "https://drupal.star.bnl.gov/STAR/meetings/2022-Pre-QM-meeting" }
+    - { t: "Online STAR Collaboration Meeting, February 14-25, 2022", u: "https://drupal.star.bnl.gov/STAR/meetings/STAR-Collaboration-Meeting-February-2022" }
+- year: 2021
+  items:
+    - { t: "Online STAR Analysis Meeting, Dec 6-8, 2021", u: "https://drupal.star.bnl.gov/STAR/meetings/star-analysis-meeting-december-2021" }
+    - { t: "Online STAR Collaboration Meeting, Sep. 13-24, 2021, Hosted by Rutgers", u: "https://indico.bnl.gov/event/12632/" }
+    - { t: "Online STAR Analysis Meeting, June 28-30, 2021", u: "https://drupal.star.bnl.gov/STAR/meetings/star-analysis-meeting-june-2021" }
+    - { t: "Online STAR Collaboration Meeting, Mar. 1-12, 2021, Hosted by CTU in Prague and NPI of Czech Academy of Sciences", u: "https://indico.fjfi.cvut.cz/event/186/overview" }
+    - { t: "Online STAR Analysis Meeting, Jan. 6-8, 2021", u: "https://drupal.star.bnl.gov/STAR/meetings/star-analysis-meeting-january-2021" }
+- year: 2020
+  items:
+    - { t: "Online STAR Collaboration Meeting, Sept. 14-25, 2020, Hosted by the Indian Institute of Science Education and Research (IISER)", u: "https://indico.bnl.gov/event/9136/overview" }
+    - { t: "STAR Collaboration Meeting, Mar. 11-15, 2020, Berkeley, UC Clark Kerr Campus (Online)", u: "https://conferences.lbl.gov/e/star2020" }
+- year: 2019
+  items:
+    - { t: "STAR Pre-QM Meeting, Oct. 29 - Nov. 1, 2019, Qingdao", u: "https://indico.ihep.ac.cn/event/10144/" }
+    - { t: "STAR Collaboration Meeting, Aug. 19, 2019, Cracow", u: "https://indico.bnl.gov/event/6005/" }
+    - { t: "STAR Collaboration Meeting, Mar. 29 - Apr. 2, 2019, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-7" }
+- year: 2018
+  items:
+    - { t: "STAR Analysis Meeting, Dec. 12-14, 2018, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-winter-analysis-meeting" }
+    - { t: "ALICE-STAR Indian Meeting, Sep. 17-21, 2018, NISER", u: "http://www.niser.ac.in/asic-meeting/program.php" }
+    - { t: "STAR Regional Meeting, Oct. 31 - Nov. 2, 2018, USTC", u: "http://pnp.ustc.edu.cn/STARRMtg2018/" }
+    - { t: "STAR-CBM Joint Workshop, Sep. 29, 2018, Physikalisches Institut, Heidelberg", u: "https://indico.gsi.de/event/7694/" }
+    - { t: "STAR Collaboration Meeting, July 16-21, 2018, Lehigh University", u: "http://www.lehigh.edu/~rjr215/StarColabJuly2018.htm" }
+    - { t: "Pre-QM Meeting, May 8-11, 2018, Warsaw University of Technology", u: "https://indico.cern.ch/event/688180/" }
+    - { t: "STAR Collaboration Meeting, Jan. 24-28, 2018, LBL", u: "https://sites.google.com/lbl.gov/star2018", l2: "Meeting Page in Drupal", u2: "https://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-5" }
+- year: 2017
+  items:
+    - { t: "STAR Autumn 2017 Analysis Meeting, Nov. 2-4, 2017, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-2017-analysis-meeting" }
+    - { t: "The 2nd CBM-STAR Joint Workshop, Sep. 23, 2017, CCNU, Wuhan", u: "https://indico.gsi.de/event/6116/" }
+    - { t: "STAR Regional Meeting: Heavy Quark Production, Jets and Correlations, Jun. 27-29, 2017, Warsaw", u: "http://hqpc2017.if.pw.edu.pl/" }
+    - { t: "STAR Collaboration Meeting, May 15-19, 2017, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-4" }
+    - { t: "CBM-STAR Joint Workshop, Mar. 18, 2017, TU Darmstadt", u: "https://indico.gsi.de/conferenceDisplay.py?confId=5593" }
+    - { t: "STAR Pre-QM Meeting, Feb. 1-3, 2017, BNL", u: "https://drupal.star.bnl.gov/STAR/conference/timetable/talk/38581" }
+- year: 2016
+  items:
+    - { t: "Mini-Workshop for TOF and MTD in STAR, Dec. 8-10, 2016, NCKU", u: "http://www.phys.ncku.edu.tw/~yiyang/tofmtd_dec2016_meeting.html" }
+    - { t: "STAR Analysis Meeting, Nov. 10-12, 2016, LBL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-analysis-meeting-0" }
+    - { t: "STAR Collaboration Meeting, Aug. 15-20, 2016, OSU", u: "http://go.osu.edu/STAR2016" }
+    - { t: "STAR Regional Meeting, Jun. 13-15, 2016, AGH, Cracow", u: "https://indico.bnl.gov/conferenceDisplay.py?confId=1630" }
+    - { t: "STAR Regional Meeting, Feb. 12-13, 2016, NISER, India", u: "http://www.niser.ac.in/STAR-QCD/" }
+    - { t: "STAR Collaboration Meeting, Jan. 25-30, 2016, BNL", u: "https://drupal.star.bnl.gov/STAR/conference/timetable/talk/35175" }
+- year: 2015
+  items:
+    - { t: "STAR Collaboration Meeting, Sep. 23-26, 2015, SINAP, Shanghai, China", u: "http://starmeeting2015.csp.escience.cn/dct/page/1" }
+    - { t: "STAR Regional Meeting: Workshop on STAR Upgrades, Sep. 21 - 22, 2015, USTC, Hefei, China", u: "http://cicpi.ustc.edu.cn/indico/conferenceDisplay.py?confId=297" }
+    - { t: "HFT Analysis and HFT+ Topical Meeting, Aug. 20-22, 2015, LBNL", u: "https://drupal.star.bnl.gov/STAR/meetings/hft-analysis-and-hft-topical-meeting" }
+    - { t: "STAR Collaboration Meeting, Jun. 1-6, 2015, Stony Brook University", u: "https://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-june-1-6-2015" }
+    - { t: "STAR Regional Meeting, Feb. 9-11, 2015, Prague", u: "http://physics.fjfi.cvut.cz/star2015" }
+    - { t: "2nd HFT+ Discussion Meeting, Jan 6-7, 2015, LBNL", u: "https://drupal.star.bnl.gov/STAR/conference/timetable/talk/32215" }
+- year: 2014
+  items:
+    - { t: "STAR SSD (HFT) Software Workshop, Dec 10, 2014, Kent State Univ.", u: "https://drupal.star.bnl.gov/STAR/event/2014/12/10/star-ssd-hft-software-workshop" }
+    - { t: "HFT+ Upgrade Discussion, Dec 1, 2014, UIC", u: "https://drupal.star.bnl.gov/STAR/meetings/hft-upgrade-discussion-meeting/hft-upgrade-discussion" }
+    - { t: "STAR Collaboration Meeting, Nov. 3-7, 2014, BNL", u: "https://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-november-3-7" }
+    - { t: "STAR Upgrade Workshop, Oct. 2-3, 2014, UIC", u: "http://tigger.uic.edu/~yezhenyu/STAR-upgrade-workshop2014/" }
+    - { t: "STAR Regional Meeting, Aug. 18-22, 2014, Shandong Uni., Weihai, China", u: "http://hepg.sdu.edu.cn/THPPC/conference/STARmeeting2014/index.html" }
+    - { t: "STAR Collaboration Meeting, May 13-16, 2014, FIAS", u: "http://fias.uni-frankfurt.de/physics/conferences/star2014/" }
+    - { t: "STAR Collaboration Meeting, Feb. 10-14, 2014, BNL", u: "https://drupal.star.bnl.gov/STAR/conference/timetable/talk/29077" }
+    - { t: "STAR Regional Meeting: Heavy Quark Production, Jets and Correlations, Jan. 21-24, 2014, Warsaw", u: "http://hqpc2014.if.pw.edu.pl/" }
+- year: 2013
+  items:
+    - { t: "STAR MTD/eTOF Workshop, Nov. 20-22, 2013, Rice Univ.", u: "http://macfrank.rice.edu/workshops/MTD2013/" }
+    - { t: "STAR Collaboration Meeting, Oct. 14-19, 2013, LBNL", u: "http://star2013.lbl.gov/" }
+    - { t: "STAR Regional Meeting, Sep. 9-11, 2013, USTC, Hefei, Anhui, China", u: "http://hepg-work.ustc.edu.cn/star2013" }
+    - { t: "eSTAR Meeting, Aug. 28-29, 2013, UCLA", u: "https://drupal.star.bnl.gov/STAR/conference/timetable/talk/27909" }
+    - { t: "STAR Analysis Meeting, July 16-19, 2013, Purdue", u: "http://www.physics.purdue.edu/~fqwang/Ana2013/" }
+    - { t: "STAR Regional Meeting (Heavy Quark & Jets), June 13-15, 2013, Prague", u: "http://physics.fjfi.cvut.cz/star2013/index.php?clanek=main" }
+    - { t: "STAR Collaboration Meeting, Feb. 24 - Mar. 1, 2013, BNL", u: "http://drupal.star.bnl.gov/STAR/conference/timetable/talk/26203" }
+- year: 2012
+  items:
+    - { t: "STAR Analysis and Upgrade Meeting, Nov. 28 - Dec. 2, 2012, UCLA", u: "http://staranalysis.physics.ucla.edu/" }
+    - { t: "STAR Regional Meeting: Heavy Quark Production and Correlations, Nov. 5-7, 2012, Warsaw", u: "http://hqpc2012.if.pw.edu.pl/index.html" }
+    - { t: "STAR Collaboration Meeting, August 5-10, 2012, BNL", u: "http://drupal.star.bnl.gov/STAR/meetings/star-collaboration-meeting-0" }
+    - { t: "STAR Upgrade Workshop, June 11-12, 2012, BNL", u: "http://drupal.star.bnl.gov/STAR/conference/timetable/talk/23768" }
+    - { t: "STAR Topical Workshop, May 23-25, 2012, Rice U.", u: "http://drupal.star.bnl.gov/STAR/meetings/star-topical-workshop-fluctuations-particle-identification" }
+    - { t: "STAR Analysis Meeting, April 16-20, 2012, BNL", u: "http://drupal.star.bnl.gov/STAR/meetings/star-analysis-meeting-apr17-21-bnl-ny" }

@@ -1,0 +1,86 @@
+# STAR organization, migrated from
+# https://www.star.bnl.gov/central/collaboration/organization.php
+# Names are plain text (the original linked them to the phonebook database).
+leadership:
+  - group: Spokespersons
+    roles:
+      - { role: Co-Spokesperson, name: Frank Geurts }
+      - { role: Co-Spokesperson, name: Lijuan Ruan }
+  - group: Physics analysis
+    roles:
+      - { role: Physics Analysis Coordinator, name: Yue-Hang Leung }
+      - { role: Deputy Physics Analysis Coordinator, name: Subhash Singha }
+  - group: Editorial board
+    roles:
+      - { role: Editorial Board Chair, name: Sooraj Radhakrishnan }
+      - { role: Editorial Board Vice-Chair, name: Prithwish Tribedy }
+  - group: Talks committee
+    roles:
+      - { role: Talks Committee Chair, name: James Drachenberg }
+
+# Council seats: institution, representative, and other institutions
+# represented by the same seat ("also").
+council:
+  - { inst: "University of Delhi Panchayat College", rep: "Kishora Nayak" }
+  - { inst: "Abilene Christian University", rep: "James Drachenberg" }
+  - { inst: "AGH University of Krakow", rep: "Mariusz Przybycien" }
+  - { inst: "Alikhanov Institute for Theoretical and Experimental Physics of National research Centre \"Kurchatov Institute\"", rep: "Igor Alekseev" }
+  - { inst: "American University in Cairo", rep: "Ahmed Hamed" }
+  - { inst: "Brookhaven National Laboratory", rep: "Oleg Eyser", also: "Academia Sinica, Argonne National Laboratory, University of Calabria & INFN-Cosenza, Max-Planck-Institut fuer Physik, Nagoya University, National Cheng Kung University, Southern Connecticut State University, Texas Southern University" }
+  - { inst: "University of California, Berkeley", rep: "Hank Crawford" }
+  - { inst: "University of California - Davis", rep: "Daniel Cebra" }
+  - { inst: "University of California - Los Angeles", rep: "Huan Huang" }
+  - { inst: "University of California - Riverside", rep: "Kenneth Barish" }
+  - { inst: "Central China Normal University", rep: "Shusu Shi" }
+  - { inst: "University of Illinois at Chicago", rep: "Olga Evdokimov" }
+  - { inst: "Creighton University", rep: "Janet Seger" }
+  - { inst: "Czech Technical University in Prague", rep: "Jaroslav Bielcik" }
+  - { inst: "Technische Universität Darmstadt", rep: "Tatyana Galatyuk" }
+  - { inst: "Eotvos Lorand University", rep: "Mate Csanad" }
+  - { inst: "Frankfurt Institute for Advanced Studies (FIAS)", rep: "Ivan Kisel" }
+  - { inst: "Fudan University", rep: "Jinhui Chen", also: "Shanghai Institute of Applied Physics" }
+  - { inst: "Guangxi Normal University", rep: "Yufu Lin" }
+  - { inst: "University of Heidelberg", rep: "Norbert Herrmann" }
+  - { inst: "University of Houston", rep: "Rene Bellwied" }
+  - { inst: "Huzhou Normal University", rep: "Haojie Xu" }
+  - { inst: "Indian Institute of Science Education and Research (IISER), Berhampur", rep: "Md Nasim" }
+  - { inst: "Indian Institute of Science Education and Research (IISER) Tirupati", rep: "Chitrasen Jena" }
+  - { inst: "Indiana University, CEEM", rep: "Scott Wissink" }
+  - { inst: "Institute of Modern Physics, Lanzhou", rep: "Hao Qiu", also: "Lanzhou University" }
+  - { inst: "Institute of Physics. Bhubaneswar", rep: "Pradip Kumar Sahu" }
+  - { inst: "University of Jammu", rep: "Anju Bhasin" }
+  - { inst: "Joint Institute for Nuclear Research", rep: "Richard Lednicky" }
+  - { inst: "Kent State University", rep: "Declan Keane", also: "Instituto de Alta Investigación, Universidad de Tarapacá" }
+  - { inst: "University of Kentucky", rep: "Renee Fatemi" }
+  - { inst: "Lawrence Berkeley National Laboratory", rep: "Xin Dong", also: "Sejong University" }
+  - { inst: "Lehigh University", rep: "Rosi Reed" }
+  - { inst: "Michigan State University", rep: "Gary Westfall" }
+  - { inst: "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)", rep: "Mikhail Strikhanov" }
+  - { inst: "National Institute of Science Education and Research", rep: "Bedanga Mohanty", also: "National Institute of Technology Durgapur, Indian Institute Technology Patna, Lovely Professional University, Ramakrishna Mission Residential (RKMR) College" }
+  - { inst: "Nuclear Physics Institute, The Czech Academy of Sciences", rep: "Jana Bielcikova" }
+  - { inst: "Ohio State University", rep: "Mike Lisa" }
+  - { inst: "Panjab University", rep: "Lokesh Kumar" }
+  - { inst: "A.A. Logunov Institute for High Energy Physics (IHEP), NRCKI", rep: "Larisa Nogach" }
+  - { inst: "Purdue University", rep: "Wei Xie", also: "Ball State University, Wuhan University of Science and Technology" }
+  - { inst: "Rice University", rep: "Wei Li" }
+  - { inst: "Rutgers University", rep: "Sevil Salur" }
+  - { inst: "University of Science and Technology of China (USTC)", rep: "Yifei Zhang", also: "Chongqing University" }
+  - { inst: "South China Normal University", rep: "Shuai Yang" }
+  - { inst: "Shandong University", rep: "Chi Yang" }
+  - { inst: "Stony Brook University", rep: "jiangyong Jia" }
+  - { inst: "Temple University", rep: "Bernd Surrow" }
+  - { inst: "Texas A&M University", rep: "Saskia Mioduszewski" }
+  - { inst: "University of Texas at Austin", rep: "Lanny Ray" }
+  - { inst: "Tsinghua University", rep: "Xianglei Zhu" }
+  - { inst: "University of Tsukuba", rep: "Takafumi Niida" }
+  - { inst: "University of Chinese Academy of Sciences", rep: "Guannan Xie" }
+  - { inst: "Valparaiso University", rep: "Donald Koetke" }
+  - { inst: "Variable Energy Cyclotron Centre. Kolkata", rep: "Zubayer Ahammed" }
+  - { inst: "Warsaw University of Technology", rep: "Hanna Zbroszczyk" }
+  - { inst: "Wayne State University", rep: "Sergei Voloshin" }
+  - { inst: "Yale University", rep: "Helen Caines", also: "United States Naval Academy" }
+
+juniors:
+  - Iris Ponce Pinto
+  - Alexandr Prozorov
+  - Mathias Labonte

@@ -63,3 +63,34 @@ body { font-size: 1rem; }
 .page-figure { text-align: center; margin: 1.25rem 0; }
 .page-figure img { max-width: 100%; height: auto; }
 .page-figure-row { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start; }
+
+/* institutions page */
+.inst-map { text-align: center; margin: 1.25rem 0 2rem; }
+.inst-map img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+.inst-map figcaption { font-size: .85rem; color: #666; margin-top: .5rem; }
+.institutions { display: flex; flex-direction: column; gap: 1.1rem; }
+.institution {
+  background: #faf6f6;
+  border: 1px solid #e8dcdf;
+  border-left: 5px solid var(--star-accent);
+  border-radius: 6px;
+  padding: .9rem 1.2rem 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.inst-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: .01em;
+  color: var(--star-accent-dark);
+}
+.inst-link { font-size: .85rem; margin-top: .3rem; word-break: break-all; }
+.inst-members {
+  margin-top: .7rem;
+  padding-top: .6rem;
+  border-top: 1px solid #e8dcdf;
+  font-size: .95rem;
+  line-height: 1.65;
+  color: #3a3a3a;
+}
+.inst-note { font-size: .85rem; color: #666; margin-top: 1.5rem; }

@@ -58,3 +58,8 @@ body { font-size: 1rem; }
 /* experiment page: detector drawing */
 .detector-layout { text-align: center; margin: 1rem 0 1.5rem; }
 .detector-layout img { max-width: 100%; height: auto; }
+
+/* subsystem pages: centred figures, optionally several in a row */
+.page-figure { text-align: center; margin: 1.25rem 0; }
+.page-figure img { max-width: 100%; height: auto; }
+.page-figure-row { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: flex-start; }

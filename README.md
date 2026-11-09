@@ -20,7 +20,7 @@ bundle exec jekyll serve --livereload          # http://127.0.0.1:4000
 | `_data/related_sites.yml` | BNL/RHIC/DOE links at the bottom of the sidebar. |
 | `_posts/` | News items, `YYYY-MM-DD-title.md`. |
 | `_layouts/default.html`, `_includes/` | Page template, sidebar, `stub.html` marker. |
-| `assets/custom/css/custom.css` | Colours (one variable: `--star-accent`) and content styles. |
+| `assets/themes/<theme>/custom.css` | Colours (variables `--star-accent`, `--star-accent-dark`) and content styles. The theme is chosen by `css_theme` in `_config.yml` (`default` = red, `alt` = BNL cerulean/teal). |
 | `<section>/<page>/index.md` | One Markdown page per URL. |
 
 ## Migrating a page

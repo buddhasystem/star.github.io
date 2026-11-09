@@ -11,6 +11,11 @@ description: The STAR experiment at RHIC, Brookhaven National Laboratory
 url: "https://buddhasystem.github.io"
 baseurl: ""
 
+# Colour theme: a folder under assets/themes/. Keep exactly one line active.
+# jekyll serve reads _config.yml only at startup, so restart it after switching.
+# css_theme: default
+css_theme: alt
+
 timezone: America/New_York
 
 # News items are posts: _posts/YYYY-MM-DD-title.md

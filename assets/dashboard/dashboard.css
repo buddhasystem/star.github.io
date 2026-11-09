@@ -70,9 +70,15 @@ body {
  */
 
 .navbar-brand {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: 1rem;
+  /* same type as the page title (h1.page-title): size, weight, line height */
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
   background-color: rgba(0, 0, 0, .25);
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
 }
